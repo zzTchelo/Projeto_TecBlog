@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------- IDs ---------------------------- */
+#id_cabecalho{
+    background-color: #f7b600;
+    text-align: center;
+    padding: 15px;
+}
+
+#id_logo{
+    padding: 10px;
+}
+
+#id_menu{
+    padding: 10px;
+}
+
+#id_main_area{
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+}
+
+#id_menu_lateral{
+    float: right;
+    background-color: white;
+    /*margin: 10px;*/
+    width: 29.5%;
+}
+
+#id_post{
+    float: left;
+    /*margin: 10px;*/
+    width: 69.5%;
+}
+
+#id_rodape{
+    clear: both;
+    padding: 10px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+#id_lateral_tamanho{
+    padding: 10px 0;
+}
+
+/* -------------------------- Classes -------------------------- */
+.white{
+    color: white;
+}
+
+.class_post_cabecalho{
+    padding: 10px;
+    background-color: #dfdfdf;
+    text-align: center;
+}
+
+.class_post_conteudo{
+    padding: 0px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.class_titulo_lateral{
+    padding: 10px;
+    background-color: #555555;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.class_conteudo_lateral{
+    padding: 20px;
+    text-align: justify;
+   /* border-bottom: 1px solid #4e4e4e;*/
+}
+
+.class_categoria_lateral{
+    display: block;
+    text-align: center;
+}
+
+.class_date{
+    font-size: 10px;
+}
+
+/* --------------------------- Tags ---------------------------- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #efefef;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #555555;
+}
+
+a{
+    text-decoration: none;
+}
+
+.class_categoria_lateral a:link, .class_categoria_lateral a:visited{
+    color: #f7b600;
+}
+.class_categoria_lateral a:hover{
+    padding: 10px 0;
+    display: block;
+    color: white;
+    background-color: #f7b600;
+}
+
+.class_conteudo_lateral a:link, .class_conteudo_lateral a:visited{
+    color: #7f7f7f;
+}
+
+.class_post_conteudo a:link, .class_post_conteudo a:visited{
+    display: block;
+    padding: 10px 15px;
+    background-color: #7f7f7f;
+    color: white;
+}
+
+#id_cabecalho a:link, #id_cabecalho a:visited{
+    display: inline;
+    padding: 10px 15px;
+    color: white;
+    background-color: #f7b600;
+}
+
+#id_cabecalho a:hover{
+    color: #f7b600;
+    background-color: white;
+}
+
+.class_post_conteudo p{
+    background-color: #efefef;
+    padding: 10px 25px;
+    text-align: justify;
+}
+
+img{
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: gray;
+    margin: 10px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+hr{
+    display: block;
+    margin: auto;
+    width: 95%;
+}
